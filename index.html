@@ -195,12 +195,23 @@
 		<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="volunteer">
         <div class="my-auto">
           <h2 class="mb-5">Volunteer</h2>
+		  
+		  <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Finance Chair</h3>
+              <div class="subheading mb-3">Computing Student Research Conference (CSearch)</div>
+              <p>As Finance Chair, I oversee all budgeting and resource allocation for the CSearch Conference - a conference promoting research in computer science for both undergraduate and graduate students in Canada.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2018 - <i>present</i></span>
+            </div>
+          </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Appointments Officer</h3>
               <div class="subheading mb-3">Graduate Computing Society</div>
-              <p>As the Appointments Officer, I represent graduate computing students in the promotions and interview process for Computing faculty. In this role, I also assist in the organization of events and the annual conference for
+              <p>As the Appointments Officer, I represent graduate computing students in the promotions and interview process for Computing faculty. During my term, I was on the Faculty Appointment Committee for the hiring of two new Professors in the School of Computing. In this role, I also assist in the organization of events and the annual conference for
 			  Masters and PhD students in computing at Queen's.</p>
             </div>
             <div class="resume-date text-md-right">
@@ -322,8 +333,7 @@
             </li>
             <li class="list-inline-item">
               <i class="devicons devicons-git"></i>
-            </li>
-            
+            </li> 
             <li class="list-inline-item">
               <i class="devicons devicons-apache"></i>
             </li>
@@ -340,7 +350,53 @@
             <li class="list-inline-item">
               <i class="devicons devicons-apache"></i>
             </li>
+			<li class="list-inline-item">
+              <i class="fa fa-ellipsis-h" onclick="openTab('b3');"></i>
+            </li>
           </ul>
+		  
+	<div id="b3" class="containerTab" style="display:none">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn" style="float: right; font-size: 25px;">&times;</span>
+	  <h2 class="subheading mb-3">Programming Skills</h2>
+	  <div style="float: left; width: 50%;">
+	  <ul>
+	  <li>Python</li>
+	  <li>Java</li>
+	  <li>C++</li>
+	  <li>C</li>
+	  <li>MATLAB</li>
+	  <li>SQL (MS, MySQL)</li>
+	  <li>NoSQL Systems (Mongo,Hadoop)</li>
+	  <li>PHP</li>
+	  <li>JavaScript</li>
+	  </ul>
+	  </div>
+	  <div style="float: left; width: 50%;">
+	  <ul>
+	  <li>WordPress</li>
+	  <li>Visual Studio</li>
+	  <li>Eclipse</li>
+	  <li>Apache</li>
+	  <li>Git</li>
+	  <li>MS Excel</li>
+	  <li>Windows Server</li>
+	  <li>Linux (RHEL, Debian, Ubuntu)</li>
+	  <li>MacOS</li>
+	  </ul>
+	  </div>
+	</div>
+<br>
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
 <script>
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();   
